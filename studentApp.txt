@@ -1,0 +1,48 @@
+StudentApp
+
+class student
+{   
+   
+     String name;
+	 int rollnumber;
+	 String coure;
+	 String email;
+	 Long mobile;
+	 String address;
+	 char gender;
+	 int yearofjoining;
+     
+	 public void printstudent()
+	 {
+	  System.out.println("student Name: +name");
+      System.out.println("student Rollnumber: +rollnumber");	  
+	  System.out.println("student Email: +email");
+	  System.out.println("student Coure: +coure");
+	  System.out.println("student Mobile: +mobile");
+	  System.out.println("student Address: +address");
+	  System.out.println("student Gender:"+gender);
+	  System.out.println("student Yearofjoining: +yearofjoining");
+	  
+	 }
+}
+classManager
+{
+    public static void main(String[]args)
+	{
+	 student ram=new student();
+	 ram.name="Ram";
+	 ram.rollnumber="1";
+	 ram.coure="java";
+	 ram.email="ram@gmail.com";
+	 ram.mobile="9848454545";
+	 ram.address="hyd";
+	 ram.gender="M";
+	 ram.yearofjoining="2022"
+	
+	
+	}
+
+}	 
+
+	 
+	 
